@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table</title>
+        <style>
+            .table{
+                display: table;
+                width: 800px;
+                margin-top: 300px;
+                margin-left: 100px;
+                border: 10px;
+                
+            }
+            .row{
+                display: table-row;
+                text-align: center;
+
+            }
+            .col{
+                display: table-cell;
+                border: 1px solid;
+                padding: 10px
+                
+
+                
+            }
+            .header{
+                display: table-header-group;
+                text-align: center;
+                background-color: grey;
+                color: white;
+                font-weight: bold;
+            }
+            .footer{
+                display: table-footer-group;
+                
+
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="table">
+            <div class="header">
+                 <div class="row">
+                        <div class="col">NAME</div>
+                        <div class="col">AGE</div>
+                        <div class="col">CITY</div>
+
+                
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col">JAYA</div>
+                <div class="col">22</div>
+                <div class="col">tmr</div>
+            </div>
+            <div class="footer">
+                <div class="row">
+                       <div class="col" rowspan="2">TOTAL STUDENTS</div>
+                       <div class="col" aria-colspan="1">1</div>
+                       <div class="col"aria-colspan="1"></div>
+
+               
+                </div>
+           </div>
+        </div>
+        </div>
+    </body>
+</html>

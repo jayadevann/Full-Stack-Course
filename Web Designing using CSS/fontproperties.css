@@ -1,0 +1,14 @@
+h1{
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+    font-size: 45px;
+    font-variant: small-caps;
+}
+span{
+    font-style: italic;
+    font-weight: bolder;
+    color:darkgreen
+}
+p{
+    font-size: 20px;
+}
