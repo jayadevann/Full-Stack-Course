@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(0,0,0,0.75); 
+}
+.getin-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url('/Images/Background\ Image\ 1.jpg' );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    opacity: 15%;    
+}
+.jd{
+    width: 20%;
+    height:42%;
+    background-image: url('/Images/Jaya\ Devan.jpg');
+    background-size: cover;
+    background-position: center; 
+    position: absolute;
+    margin: 40px;
+    border-radius: 200px;  
+}
+.jd:hover{
+    border: 4px solid;
+    border-color: #e64d33;
+}
+.click-here{
+    position: absolute;
+    right:40px;
+    top: 500px;
+    width: 13%;
+    height: 8%;
+    background-color: #e64d33;
+    border: transparent;
+    border-radius: 30px;
+    color: #f3f1ef;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
+}
+.jd-text{
+    position: absolute;
+    color: white;
+    bottom: 420px;
+    left: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    cursor: pointer;
+}
+.jd-text:hover{
+    color: #e64d33;
+}
+.orange{
+    color: #e64d33;
+}
+.orange:hover{
+    color: white;
+}
+.typewriter1{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #e64d33; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(40, end),
+      blink-caret .75s step-end;
+      color: white;
+      position: absolute;
+      bottom: 330px;
+      left: 350px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#e64d33; }
+  }
+  .typewriter1:hover{
+    color: #e64d33;
+  }
+  .typewriter2{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #e64d33; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(40, end),
+      blink-caret .75s step-end;
+      color: white;
+      position: absolute;
+      bottom: 300px;
+      left: 350px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#e64d33; }
+  }
+  .typewriter2:hover{
+    color: #e64d33;
+  }
+  .wd{
+    position: absolute;
+    left: 350px;
+    color: white;
+    top: 160px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+  }
+  .at{
+    color: #e64d33;
+  }
+  
+
+

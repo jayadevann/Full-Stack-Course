@@ -1,0 +1,143 @@
+.image{
+    height: 140px;
+    margin-top: 230px;
+    margin-left: 200px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color:#f0f2f5 ;
+    height: 1200px;
+    width: 100%;
+}
+.para{
+    
+    font-size: 35px;
+    margin-left: 240px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+    margin-top: -20px
+}
+.left-section{
+    width: 50%;
+    float: left;
+}
+.right-section{
+    width: 50%;
+    float: right;
+}
+.form{
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+    margin-top: 150px;
+    margin-left: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.boxes{
+    margin: 100px;
+    
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: inherit;;
+    color: blue;
+    border: 1px solid #dddfe2;
+    font-size: 25px;
+    padding: 20px
+   
+}
+.boxes:hover{
+    border-color: blue;
+    opacity: 50%;
+}
+.boxe{
+   
+    
+    width: 85%;
+    margin-left: 20px;
+    margin-top: -150px;
+    border-radius: 10px;
+    font-family: inherit;;
+    color: blue;
+    border: 1px solid #dddfe2;
+    font-size: 25px;
+    padding: 20px;
+    position: relative;
+    bottom: 55px;
+}
+.boxe:hover{
+    border-color: blue;
+    opacity: 50%;
+    
+
+}
+.boxe:focus-visible{
+    border-color: orange;
+}
+.login-button{
+    width: 93%;
+    position: relative;
+    left: 20px;
+    padding: 18px;
+    border-radius: 10px;
+    bottom: 30px;
+    background-color: #1877f2;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+.forget-password{
+    font-family: inherit;
+    font-size: 21px;
+    text-decoration: none;
+    color: #1877f2;
+   
+    margin-left: 190px;
+    font-weight: 500px;
+    position: relative;
+    top: 15px;
+
+    
+ 
+
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    opacity: 30%;
+
+}
+.create{
+    position: relative;
+    left: 148px;
+    top: 80px;
+    padding: 18px;
+    font-size: 23px;
+    border-radius: 10px;
+    background-color:#42b72a;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+.para2,a{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 86px;
+    font-size: 19px;
+}
+
+
