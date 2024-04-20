@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const vehicle={
+            doors:2,
+            engine:function(){
+                return"vroom";
+            }
+        };
+        console.log(vehicle.engine());
+
+
+        const car=Object.create(vehicle);  //inheriting the properties of vehicle//
+        car.engine= function(){
+            return"drrrrr";
+        }
+        console.log(car.engine());
+
+
+        const tesla=Object.create(car); //inheriting the properties of car//
+        tesla.engine=function(){
+            return"shhhhh";
+        }
+        console.log(tesla.engine());
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

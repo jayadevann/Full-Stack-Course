@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //exampl 1//
+        let subscriber="subscribed";
+        let response = subscriber? "welcome":"please subscribe";
+        console.log(response);
+        //example 2//
+        let testscore=60;
+        let grade = testscore>=80 ? "A": testscore>=70? "B": testscore>=60 ? "c" : testscore<=50 ? "fail" : "improve";
+        console.log(grade);
+        //chgallenge in ternary operators//
+        let player="scissors";
+        let computer="paper";
+        let result= player===computer ? "TIE" : 
+        player==="rock"&&computer==="scissors"? "player wins": 
+        player==="rock"&& computer==="paper"?"computer wins":
+        player==="scissors"&&computer==="rock"? "computer wins": 
+        player==="scissors"&& computer==="paper"?"player wins":
+        player==="paper"&&computer==="rock"? "player wins": 
+        player==="paper"&& computer==="scissors"?"computer wins": "nothing"
+         ;
+        console.log(result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

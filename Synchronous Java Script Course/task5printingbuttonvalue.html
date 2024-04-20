@@ -1,0 +1,17 @@
+<div id="fill">hello</div>
+<button id="jd" onclick="updatetext(event)">jd</button>
+<button id="jk" onclick="updatetext(event)">jk</button>
+<button id="sk" onclick="updatetext(event)">sk</button>
+
+
+
+<script>
+
+ var fills=document.getElementById("fill");
+
+ function updatetext(event){
+    fills.textContent=event.target.textContent;
+ }
+
+
+</script>

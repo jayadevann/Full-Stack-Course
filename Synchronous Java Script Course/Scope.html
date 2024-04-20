@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //global scope//
+
+        var x=1;
+        let y=2;
+        const z=3;
+
+        //local scope// block scope//
+        {
+        let y=4;
+        console.log(x);
+        }
+
+        //local scope // function scope //
+        function myfunc(){
+            const z=3;
+            console.log(z);
+        }
+        myfunc()
+        console.log(y);
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

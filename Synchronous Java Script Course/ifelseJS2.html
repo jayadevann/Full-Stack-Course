@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //example 1//
+        let CustomerIsBanned=false;
+        let viewer="hi";
+        let reply;
+        if(CustomerIsBanned){
+            reply="sry";
+            console.log(reply);
+        }
+        else if(viewer){
+            reply=`enjoy ${viewer}`;
+            console.log(reply);
+        }
+        else{
+            console.log("quit");
+        }
+        //example 2//
+        let testscore=60;
+        let grade;
+        if(testscore>=90){
+            grade= "A";
+            console.log(grade);
+        }
+        else if(testscore>=80){
+            grade="B";
+            console.log(grade);
+        }
+        else{
+            grade="fail";
+            console.log(grade);
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

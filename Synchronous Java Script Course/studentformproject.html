@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STUDENT FORM</title>
+</head>
+<body>
+
+<h1>STUDENT FORM</h1>
+<input id="name" placeholder="enter the name"><br>
+<input id="age" placeholder="enter the age"><br>
+<input id="course" placeholder="enter the course"><br>
+<input id="email" placeholder="enter the email"><br>
+<button onclick="save()">SAVE</button>
+
+<ul id="listcontainer">
+
+</ul>
+
+<script>
+function save(){
+    var name = document.getElementById("name");
+    var age = document.getElementById("age");
+    var course = document.getElementById("course");
+    var email = document.getElementById("email");
+    var ul = document.getElementById("listcontainer");
+    
+    var listitems = document.createElement("li");
+    listitems.innerHTML = "Name:  " + name.value + ", Age: " + age.value + ", Course: " + course.value + ", Email: " + email.value + " <button onclick='deleteitem(this)'>DELETE</button>";
+    ul.append(listitems);
+}
+
+function deleteitem(event){
+    event.parentElement.remove();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        //example 1//
+        const myArray=[];
+
+        myArray[0]="a";
+        myArray[1]="b";
+
+        console.log(myArray);
+       
+        myArray.push("c");
+        console.log(myArray);
+
+        myArray.pop();
+        console.log(myArray)
+
+        myArray.unshift("z");
+        console.log(myArray);
+
+        myArray.shift();
+        console.log(myArray)
+
+
+
+
+
+        //example 2//
+        const myArray1=[];
+
+        myArray1[0]="A";
+        myArray1[1]="B";
+        myArray1[2]="C";
+
+        console.log(myArray1);
+
+        const newarray=myArray1.join();
+        console.log(newarray);
+
+        const newwarray=newarray.split(',');
+        console.log(newwarray);
+
+        //to delete a element in a array//
+        myArray1.splice(1,1,);
+        console.log(myArray1)
+
+
+
+        const Lastitem=myArray1.pop();
+        console.log(Lastitem);
+
+        const Firstitem=myArray1.shift();
+        console.log(Firstitem);
+
+        console.log(myArray1) //when element deleted in array position of second element comes to first position//
+            </script>
+</head>
+<body>
+    
+</body>
+</html>

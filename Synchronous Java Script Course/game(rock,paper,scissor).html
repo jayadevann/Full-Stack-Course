@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let playgame=confirm("shall we play rock,paper&scissors");
+        if(playgame){
+            let playerchoice=prompt("enter your choice rock or paper or scissors");
+            if(playerchoice){
+                playerone=playerchoice.trim();
+                if(
+                    playerone==="rock"||
+                    playerone==="scissors"||
+                    playerone==="paper"){
+                        let computerchoice=Math.floor(Math.random()*3+1);
+                        let computer =computerchoice===1?"rock" : 
+                        computerchoice===2 ?"paper" :"scissors";
+                        let result=playerone===computer? "game tied" :
+                        playerone==="rock"&&computer==="paper"? "computer wins":
+                        playerone==="paper"&&computer==="scissors"? "computer wins":
+                        playerone==="scissors"&&computer==="rock"?"computer wins":"player wins";
+                        alert(result);
+                        let playagain=confirm("play again?");
+                        playagain? location.reload() :alert("see you next time");
+                    }else{
+                        alert("enter only rock paper and scissor");
+                    }
+
+                }else{
+                    alert("you should enter only rock,paper or scissors");
+                }
+            
+            }else{
+                alert("you r not intrested");
+            }
+        
+    </script>
+</body>
+</html>
