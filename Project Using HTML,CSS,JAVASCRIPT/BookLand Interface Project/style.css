@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #dd93a6;
+    padding: 10px;
+    color: #1c2424;
+}
+
+.container {
+    position: relative; /* Ensure proper positioning for absolute elements */
+    width: 100%;
+    height: 100vh; /* Ensure container takes at least the full viewport height */
+    background-color: #1c2424;
+    overflow: hidden;
+    
+}
+
+.book-container {
+    padding: 15px;
+    width: 25%;
+    background-color: #dd93a6;
+    margin: 30px;
+    border-radius: 10px;
+    color: #1c2424;
+    display: inline-block;
+    vertical-align: top;
+    
+    
+}
+
+.book-container button {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #1c2424;
+    color: #dd93a6;
+    margin-top: 10px;
+}
+
+.popupbutton {
+    background-color: #dd93a6;
+    border-radius: 100px;
+    padding: 20px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #1c2424;
+    font-weight: bolder;
+}
+
+.popup-overlay {
+    background-color: #1c2424;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1; /* Increased z-index to make it appear above container */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    overflow: hidden;
+    display: none;
+}
+.popup-box{
+    background-color: #dd93a6;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+ background-color: transparent;
+ border: none;
+ width: 100%;
+ margin: 5px;
+ padding: 5px;
+ border-bottom: solid black 2px;
+
+ 
+}
+.popup-box textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    
+    
+   }
+   .popup-box button{
+    padding: 5px;
+    background-color: #1c2424;
+    color: #dd93a6;
+    border: none;
+    border-radius: 5px;
+   }
+
+
