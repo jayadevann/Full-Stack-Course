@@ -1,0 +1,15 @@
+<script>
+    const mypromise = new Promise((resolve, reject) => {
+        const error = false;
+        if (!error) {
+            resolve("yes resolved");
+        } else {
+            reject("not resolved");
+        }
+    });
+    console.log(mypromise)
+    mypromise.then(value =>{
+        console.log(value);
+    })
+    
+</script>
